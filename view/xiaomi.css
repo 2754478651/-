@@ -1,0 +1,912 @@
+/* 清除内外边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 公共样式 */
+.center{
+    width: 1226px;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+/* 头部 */
+.header{
+    width: 100%;
+}
+.bj{
+    background-color: #333333;
+    color: #b0b0b0;
+}
+.xiaomihead{
+    display: flex;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #333333;
+}
+.headed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 12px;
+}
+.pingfeng{
+    margin: 0 8px;
+    color: #35393f;
+}
+.dinglu{
+    margin-left: 116px;
+}
+.xiaoxi{
+    margin-right: 26px;
+}
+.headfont:hover{
+     color: #fff;
+}
+.btn{
+    margin-left: 104px;
+    text-indent: 30px;
+    width: 120px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    color: #b0b0b0;
+    outline: 0;
+    border-width: 0;
+    -webkit-appearance: none;
+    line-height: 60px;
+    
+}
+.good{
+    position: relative;
+}
+#ai{
+    position: absolute;
+    top:22px;
+    right: 94px;
+}
+.headlogo{
+    position: relative;
+    height: 100px;
+}
+.logo{
+    float: left;
+    width: 62px;
+    height: 56px;
+  
+}
+.logotup{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 56px;
+    height: 56px;
+    background-image: url(./img/logo-mi.png);
+    background-size: 56px;
+}
+.logozhong{
+    float: left;
+    position: absolute;
+    left: 260px;
+    width: 800px;
+    height: 88px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.logozi{
+    position: absolute;
+    top: 12px;
+}
+.xiaomi{
+    flex: 1;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    width: 64px;
+    height: 42px;
+    margin: 0 8px;
+}
+.xiaomi:nth-child(2){
+    width: 90px;
+}
+.xiaomi:nth-child(3){
+    width: 32px;
+}
+.xiaomi:nth-child(5){
+    width: 32px;
+}
+.xiaomi:nth-child(8){
+    width: 32px;
+}
+.xiaomi:nth-child(9){
+    width: 32px;
+}
+.xiaomi:hover{
+    color: #ff6700;
+}
+
+input{
+    margin-left:36px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 28px;
+    left: 900px;
+    text-indent: 20px;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+.btn1{
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    top: 28px;
+    left: 1176px;
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid#ccc;
+}
+.bi{
+    position: absolute;
+    outline: 0;
+    top: 18px;
+    left: 16px;
+    
+}
+.btn1:hover{
+      background-color: #ff6700;
+}
+.tu{
+    position: relative;
+}
+.leftmean{
+    top: 140px;
+    left: 178px;
+    position: absolute;
+    width: 234px;
+    height: 460px;
+    background-color: rgba(105,101,101,.6);
+}
+.leftli{
+    width: 234px;
+    padding: 1px 30px;
+    box-sizing: border-box;
+    height: 42px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 42px;
+}
+.leftli:hover{
+    background-color: #ff6700;
+}
+.leftli:first-child{
+    margin-top: 20px;
+}
+.leftli:last-child{
+    margin-bottom: 20px;
+}
+.rightbig{
+float: right;
+width: 20px;
+height: 20px;
+}
+.box {
+    width: 1600px;
+    height: 170px;
+}
+
+.box .center {
+    width: 1240px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.box .center .item {
+    float: left;
+    /* overflow: hidden; */
+    width: 316px;
+    height: 170px;
+    margin: 6px 7px;
+    cursor: pointer;
+}
+
+.box .center .item:last-child{
+    margin-left:8px;
+}
+.box .center .item:hover{
+    height: 170px;
+    box-shadow: 10px 10px 30px #888888;
+   
+  
+}
+
+.box .center .item img {
+    width: 316px;
+    height: 170px;
+}
+
+
+.box .center .item1 {
+    margin: 6px 0px;
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    text-align: center;
+    margin-right: 8px;
+}
+
+
+.box .center .item1 .tup li {
+    cursor: pointer;
+    float: left;
+    width: 66px;
+    height: 43px;
+    font-size: 12px;
+    padding: 20px 5px;
+    border: 0.1px solid;
+    border-color: rgba(225, 225, 225, 0.1);
+}
+
+.box .center .item1 .tup li:hover {
+    transition: all .5s;
+    color: #fff;
+}
+
+.box .center .item1 .tup li div {
+    color: #dedede;
+   
+    margin-top: 10px;
+}
+.box .center .item1 .tup li div:hover{
+    color:white;
+}
+
+
+.box .center .item1 .tup {
+    float: left;
+    width: 234px;
+    height: 170px;
+}
+
+
+
+.box .center .item1 .tup img {
+    position: relative;
+    top: 4px;
+    left: 21px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    
+}
+/* 版心 */
+.banner{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.xiaomimiaosha{
+    width: 1226px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.bigleft{
+   float: left;
+}
+.bigright{
+    float: right;
+    text-align: center;
+    line-height: 20px;
+    color: #ccc;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+.bigright:hover{
+    color: #ff6700;
+    cursor: pointer;
+}
+.timestart{
+    width: 1226px;
+    overflow: hidden;
+}
+.time{
+    float: left;
+    border-top:1px solid red;
+    width:234px;
+    height: 341px;
+    background-color: #f1eded;
+    margin-right: 14px;
+}
+.time1{
+    float: left;
+    border-top:1px solid orange;
+    width:234px;
+    height: 341px;
+    margin-right: 14px;
+    background-color: #fff;
+}
+.time2{
+    float: right;
+    border-top:1px solid orange;
+    width:234px;
+    height: 341px;
+    right: 0;
+    background-color: #fff;
+}
+.timegood{
+    text-align: center;
+    font-size: 14px;
+}
+.good{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.gooder{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+.gooded{
+    text-align: center;
+    font-size: 14px;
+}
+.jg{
+    color: orange;
+}
+.jgj{
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.timered{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 15px;
+}
+.tutu{
+    margin-top: 20px;
+    text-align: center;
+}
+.timeover{
+    margin-top: 20px;
+    text-align: center;
+    color: #6f6d6d;
+}
+.timeshop{
+     margin-top: 50px;
+     margin-left: 44px;
+}
+.timehas{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 30px;
+    background-color: #605751;
+    padding: 4px 4px;
+    width: 80x;
+    height: 80px;
+}
+.mh{
+    padding: 0 2px;
+    padding-top: 10px;
+    color: #605751;
+    font-size: 20px;
+}
+.bannerxing{
+    width: 1226px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.centerone {
+    width: 1226px;
+    height: 628px;
+    margin: 0 auto;
+
+}
+
+
+.boxbox {
+    width: 1226px;
+    height: 628px;
+    position: relative;
+}
+
+.lefter {
+    position: absolute;
+    width: 234px;
+    height: 614px;
+     /* x=0代表移回原位置 */
+     transform: translateY(0);
+    /* 移回也需要0.4s时间过渡 */
+    transition: transform 0.4s;
+}
+.lefter:hover{
+    transform: translateY(-4px);
+    /* 0.4s完成transform移动效果*/
+    transition: transform 0.4s;
+    box-shadow: 2px 2px 30px #ccc;
+
+}
+
+.righter {
+    left: 250px;
+    position: absolute;
+    width: 992px;
+    height: 614px;
+}
+
+.righter ul li {
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    margin: 0 14px 14px 0;
+    /* y=0代表移回原位置 */
+    transform: translateY(0);
+    /* 移回也需要0.4s时间过渡 */
+    transition: transform 0.4s;
+}
+
+.righter ul li:hover {
+    /* y=-10px代表左移-4px */
+    transform: translateY(-4px);
+    /* 0.4s完成transform移动效果*/
+    transition: transform 0.4s;
+    box-shadow: 2px 2px 30px #ccc;
+
+}
+
+
+.righter ul li img {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 20px auto;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.righter ul li h3 {
+    text-align: center;
+    margin: 20px 2px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.righter ul li .p1 {
+    text-align: center;
+    font-size: 12px;
+    margin: -16px 2px 6px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.righter ul li .p2 {
+    text-align: center;
+    font-size: 12px;
+    color: orangered;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.ckgd{
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ckgd:hover{
+    color: #ff6700;
+}
+.yuan{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-color: #b0b0b0;
+    color: #fff;
+   text-align: center;
+   line-height: 20px;
+    border-radius: 10px;
+}
+.zhong {
+    width: 1218px;
+    height: 58px;
+    line-height: 58px;
+    margin: auto;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.sp {
+    float: left;
+}
+
+.ck {
+    float: right;
+    font-size: 16px;
+
+}
+.ck:hover{
+    color: orangered;
+}
+
+/* .you {
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.you:hover{
+    display: none;
+} */
+.liang{
+    display: inline-block;
+    width: 20px;
+    height: 58px;
+    line-height: 58px;
+    vertical-align: middle;
+    background: url(./img/小米右箭头.jpg)no-repeat;
+    position: absolute;
+    margin-top:20px;
+    margin-left: 1174px;
+}
+.liang:hover{
+    display: none;
+}
+.liang:hover{
+    display: block;
+    background: url(./img/右箭头亮.jpg) no-repeat;
+    position: absolute;
+    margin-left: 1222px;
+}
+
+
+.tup {
+    width: 1240px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+.tu1 {
+    float: left;
+    margin-left: 14px;
+    width: 296px;
+    height: 285px;
+    background-color: #ffffff;
+}
+
+.p1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 7px solid white;
+    border-top-color:transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    border-right-color:transparent;
+    margin-top: -256px;
+    margin-left: 230px;
+    position: absolute;
+ 
+}
+.tuy{
+    width: 40px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 0,0, 0.1);
+    text-align: center;
+    position: absolute;
+    margin-top: 3008px;
+    margin-left: -690px;
+    cursor: pointer;
+    outline: 0;
+}
+.tuy:hover{
+    background-color: orangered;
+}
+.triangle1 {
+    width: 0;
+    height: 0;
+    border: 7px solid white;
+    border-top-color:transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    border-right-color:transparent;
+    margin-top: -256px;
+    margin-left: 542px;
+    position: absolute;
+ 
+}
+.tuy1{
+    width: 40px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0,0, 0.1);
+    text-align: center;
+    position: absolute;
+    margin-top: 3008px;
+    margin-left: -377px;
+    cursor: pointer;
+}
+.tuy1:hover{
+    background-color: orangered;
+}
+.triangle2 {
+    width: 0;
+    height: 0;
+    border: 7px solid white;
+    border-top-color:transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    border-right-color:transparent;
+    margin-top: -256px;
+    margin-left: 854px;
+    position: absolute;
+ 
+}
+.tuy2{
+    width: 40px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0,0, 0.1);
+    text-align: center;
+    position: absolute;
+    margin-top: 3008px;
+    margin-left: -65px;
+    cursor: pointer;
+}
+.tuy2:hover{
+    background-color: orangered;
+}
+.triangle3 {
+    width: 0;
+    height: 0;
+    border: 7px solid white;
+    border-top-color:transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    border-right-color:transparent;
+    margin-top: -256px;
+    margin-left: 1166px;
+    position: absolute;
+ 
+}
+.tuy3{
+    width: 40px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0,0, 0.1);
+    text-align: center;
+    position: absolute;
+    margin-top: 3008px;
+    margin-left: 246px;
+    cursor: pointer;
+}
+.tuy3:hover{
+    background-color: orangered;
+}
+/* 底部 */
+/*footer*/
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+}
+
+
+/*--------------------------------weixiu*/
+
+.weixiu {
+    width: 1226px;
+    height: 79px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.weixiu li {
+    float: left;
+    height: 79px;
+    line-height: 79px;
+    font-size: 16px;
+}
+
+.weixiu a {
+    float: left;
+    padding: 0 70px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.seu {
+    float: left;
+    color: #E0E0E0;
+}
+
+.weixiu a:hover {
+    color: #ff6700;
+}
+
+
+/*------------------------------------------*/
+
+
+/*----------------------------------------fuwu*/
+
+.fuwu {
+    width: 1226px;
+    height: 192px;
+}
+
+.fu-le {
+    float: left;
+    height: 192px;
+    width: 974px;
+}
+
+.fu-le dl {
+    float: left;
+    font-size: 12px;
+}
+
+.fu-le dt {
+    padding: 42px 104px 32px 0;
+}
+
+.fu-le dt a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.fu-le dd {
+    padding-bottom: 16px;
+}
+
+.fu-le dd a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.fu-le a:hover {
+    color: #ff6700;
+}
+
+.fu-ri {
+    text-align: center;
+}
+
+.fu-ri h4 {
+    padding: 42px 0 14px 0;
+    font-size: 18px;
+    color: #ff6700;
+    font-weight: 400;
+}
+
+.fu-ri p {
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.fu-ri a {
+    display: inline-block;
+    margin-top: 20px;
+    height: 28px;
+    line-height: 28px;
+    width: 118px;
+    font-size: 14px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    text-decoration: none;
+}
+
+.fu-ri a:hover {
+    background-color: #ff6700;
+    color: #fff;
+
+}
+
+
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------copyright*/
+
+.copyright {
+    height: 55px;
+    padding: 40px 10px 0 0;
+}
+
+.logogood {
+    float: left;
+    width: 56px;
+    height: 56px;
+    background-image: url(./img/logo-mi.png);
+    background-size: 56px;
+}
+
+.co-nav {
+    float: left;
+    padding-left: 10px;
+    width: 688px;
+    height: 55px;
+}
+
+.co-nav a,
+.co-nav span,
+.co-nav p {
+    font-size: 12px;
+}
+
+.co-nav a,
+.co-nav span {
+    color: #757575;
+}
+
+.co-nav p {
+    color: #B0B0B0;
+}
+
+.co-img {
+    height: 55px;
+    width: 538px;
+}
+
+.co-img img {
+    width: 83px;
+    height: 28px;
+}
+
+
+/*-----------------------------------------------*/
+
+.xiaomi {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.xiaomi h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "楷体";
+    color: #BEBEBE;
+}
+.end{
+    width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+.hao{
+    text-align: center;
+}

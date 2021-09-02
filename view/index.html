@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米</title>
+    <link rel="stylesheet" href="/xiaomi.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2521208_qu4gictc0x.css
+    ">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header bj">
+        <div class="center" class="xiaomihead">
+            <ul class="headed">
+                {{each headfont item index}}
+                <li class="headfont">{{item}}</li>
+                <span class="pingfeng">|</span>
+                {{/each}}
+                <li class="good"><b class="iconfont icon-gouwuche" id="ai"></b> <select class="btn">
+                        {{each headche item index}}<option value="{{item}}"> {{item}}</option>{{/each}}
+                    </select></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 第二头部 -->
+    <div class="headlogo center">
+        <div class="logo">
+            <a href="#" class="logotup"></a>
+        </div>
+        <div class="logozhong">
+            <ul class="logozi">
+                {{each xiaomi item index}}
+                <li class="xiaomi">{{item}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <input type="text" placeholder="洗衣机"><button class="btn1"><i class="iconfont icon-sousuo bi"></i></button>
+    </div>
+    <div class="center">
+        {{each center item index}}
+        <img src="{{item}}" alt="" id="tu">
+        {{/each}}
+        <ul class="leftmean">
+            {{each leftli item index}}
+            <li class="leftli">{{item}}<span class="rightbig"><i class="iconfont icon-arrow_down"></i></span></li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="box">
+        <div class="center">
+            <div class="item1">
+                <ul class="tup">
+                    {{each six item index}}
+                    <li>
+                        <img src="{{item.img}}" alt="">
+                        <div>{{item.wz}}</div>
+                    </li>
+                    {{/each}}
+                    <!-- <li><img src="./img/企业团购.png" alt="">
+                        <div>企业团购</div>
+                    </li>
+                    <li>
+                        <img src="./img/F码通道.png" alt="">
+                        <div>F码通道</div>
+                    </li>
+                    <li> <img src="./img/米粉卡.png" alt="">
+                        <div>米粉卡</div>
+                    </li>
+                    <li> <img src="./img/以旧换新.png" alt="">
+                        <div>以旧换新</div>
+                    </li>
+                    <li>
+                        <img src="./img/话费充值.png" alt="">
+                        <div>话费充值</div>
+                    </li> -->
+                </ul>
+            </div>
+            {{each sb item index}}
+            <div class="item"><img src="{{item}}" alt=""></div>
+            {{/each}}
+        </div>
+    </div>
+    <!-- 版心 -->
+    <div class="banner">
+        <div class="xiaomimiaosha">
+            {{each sha item index}}
+            <div class="miaoshaleft"><span class="bigleft">{{item.ms}}</span> <span class="bigright">{{item.big}}</span><span
+                    class="bigright"> {{item.xiao}}</span>
+            </div>
+            {{/each}}
+        </div>
+        <div class="zero center">
+            <ul class="timestart">
+                <li class="time">
+                    {{each time item index}}
+                    <div class="timered">{{item.sj}}</div>
+                    <div class="tutu">
+                        <img src="{{item.img}}" alt="">
+                    </div>
+                    <div class="timeover">
+                        {{item.over}}
+                    </div>
+                    <div class="timeshop"><span class="timehas">{{item.one}}</span><span class="mh">{{item.two}}</span><span
+                            class="timehas">{{item.three}}</span><span class="mh">{{item.four}}</span><span class="timehas">{{item.fif}}</span></div>
+                    {{/each}}
+                </li>
+                {{each time1 item index}}
+                <li class="time1">
+                    <div class="timegood">
+                        <img src="{{item.tu}}" alt="">
+                    </div>
+                    <p class="good">{{item.mitu}}</p>
+                    <p class="gooder">{{item.hua}}</p>
+                    <div class="gooded"><span class="jg">{{item.yuan}}</span><span class="jgj">{{item.yuany}}</span></div>
+                </li>
+                {{/each}}
+                {{each time2 item index}}
+                <li class="time2">
+                    <div class="timegood">
+                        <img src="{{item.tu}}" alt="">
+                    </div>
+                    <p class="good">{{item.mitu}}</p>
+                    <p class="gooder">{{item.hua}}</p>
+                    <div class="gooded"><span class="jg">{{item.yuan}}</span><span class="jgj">{{item.yuany}}</span></div>
+                </li>
+                {{/each}}
+               
+        </div>
+
+        </ul>
+        <div class="bannerxing">
+            {{each banner item index}}
+            <img src="{{item}}" alt="">
+            {{/each}}
+        </div>
+        <div class="xiaomimiaosha">
+            <div class="miaoshaleft">
+                {{each bigleft item index}}
+                <span class="bigleft">{{item.sj}}</span> <span class="yuan"> {{item.da}}</span><span
+                    class="ckgd">{{item.gd}}</span>
+                 {{/each}}
+            </div>
+        </div>
+        <div class="centerone">
+            <div class="boxbox">
+                <div class="lefter">
+                    {{each lefter item index}}
+                    <img src="{{item}}" alt="">
+                    {{/each}}
+                </div>
+                <div class="righter">
+                    <ul>
+                        {{each xiaomiphone item index}}
+                        <li>
+                            <img src="{{item.tu}}" alt="">
+                            <h3>{{item.h3}}</h3>
+                            <p class="p1">{{item.p1}}</p>
+                            <p class="p2">{{item.p2}}</p>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bannerxing">
+            {{each bannerxing item index}}
+            <img src="{{item}}" alt="">
+            {{/each}}
+        </div>
+        <br>
+        <div class="centerone">
+            <div class="boxbox">
+                <div class="lefter">
+                    {{each lefter item index}}
+                    <img src="{{item}}" alt="">
+                    {{/each}}
+                </div>
+                <div class="righter">
+                    <ul>
+                        {{each xiaomiphone item index}}
+                        <li>
+                            <img src="{{item.tu}}" alt="">
+                            <h3>{{item.h3}}</h3>
+                            <p class="p1">{{item.p1}}</p>
+                            <p class="p2">{{item.p2}}</p>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <h2 class="zhong">
+                {{each sp item index}}
+                <span class="sp">{{item.sp1}}</span><span class="ck">{{item.ck}}
+                {{/each}}
+
+                </span>
+                <span class="liang"></span>
+            </h2>
+            <div class="tup">
+                <div class="tu1">
+                    {{each tup item index}}
+                    <img src="{{item}}" alt="">
+                    {{/each}}<br>
+                    {{each fbh item index}}
+                    <p class="p1">{{item}}</p><br>
+                    {{/each}}
+                    {{each fbh1 item index}}
+                    <p class="p2">{{item}}</p>
+                    {{/each}}
+                </div>
+                {{each xiaomifb item index}}
+                <div class="tu1">
+                    <img src="{{item.tu}}" alt=""><br>
+                    <p class="p1">{{item.wezi}}</p>
+                </div>
+                {{/each}}
+            </div>
+            <input class="tuy" title="点击播放视频" onfocus="this.blur();"></input>
+            <div class="triangle"></div>
+            <input class="tuy1" title="点击播放视频" onfocus="this.blur();"></input>
+            <div class="triangle1"></div>
+            <input class="tuy2" title="点击播放视频" onfocus="this.blur();"></input>
+            <div class="triangle2"></div>
+            <input class="tuy2" title="点击播放视频" onfocus="this.blur();"></input>
+            <div class="triangle2"></div>
+            <input class="tuy3" title="点击播放视频" onfocus="this.blur();"></input>
+            <div class="triangle3"></div>
+        </div>
+    </div>
+
+    </div>
+    <div class="footer">
+
+        <!-- weixiu -->
+        <div class="weixiu center">
+            <ul>
+                {{each weixiu item index}}
+                <li><a href="#">{{item}}</a><span class="seu">|</span></li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <!-- fuwu -->
+        <div class="fuwu center">
+
+            <div class="fu-le">
+                {{each fule item index}}
+                <dl>
+                    <dt><a href="#">{{item.help}}</a></dt>
+                    <dd><a href="#">{{item.zhanghao}}</a></dd>
+                    <dd><a href="#">{{item.gwzn}}</a></dd>
+                    <dd><a href="#">{{item.dingdan}}</a></dd>
+                </dl>
+                {{/each}}
+            </div>
+
+            <div class="fu-ri">
+                {{each furi item index}}
+                <h4>{{item.phone}}</h4>
+                <p>{{item.xq}}</p>
+                <p>{{item.shihua}}</p>
+                <a href="#">{{item.kefu}}</a>
+                {{/each}}
+            </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright center">
+            <div class="logogood">
+            </div>
+            <div class="co-nav ">
+                {{each xiaomier item index}}
+                <a href="#">{{item}}</a><span>|</span>
+                {{/each}}
+                <br>
+                {{each pd item index}}
+                <p>{{item}}</p>
+                {{/each}}
+            </div>
+            <div class="co-img">
+                {{each coimg item index}}
+                <img src="{{item}}">
+                {{/each}}
+            </div>
+        </div>
+
+        <!-- end -->
+        <div class="end center">
+            {{each hao item index}}
+            <div class="hao">{{item}}</div>
+            {{/each}}
+        </div>
+</body>
+
+</html>
